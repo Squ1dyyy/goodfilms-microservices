@@ -1,0 +1,12 @@
+/* styles/tokens.css */
+:root {
+  --bg-void: #0A0C14;
+  --bg-blob-violet: #6E5CFF;
+  --bg-blob-cyan: #33D4C8;
+  --glass-surface: rgba(255,255,255,0.06);
+  --glass-border: rgba(255,255,255,0.14);
+  --accent-gold: #E8B74C;
+  --font-display: "Clash Display", "General Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}

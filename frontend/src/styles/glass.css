@@ -1,0 +1,34 @@
+/* styles/glass.css */
+.glass-surface {
+  background: var(--glass-surface);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(24px) saturate(160%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25);
+}
+
+@keyframes float-blob-1 {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.95); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+@keyframes float-blob-2 {
+  0% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(-40px, 40px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+.animate-blob-1 {
+  animation: float-blob-1 25s infinite ease-in-out;
+  will-change: transform;
+}
+.animate-blob-2 {
+  animation: float-blob-2 30s infinite ease-in-out;
+  will-change: transform;
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+.before\:animate-shimmer::before {
+  animation: shimmer 2s infinite;
+}

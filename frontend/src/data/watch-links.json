@@ -1,0 +1,29 @@
+{
+  "1": [
+    { "providerId": "kinopoisk", "externalId": "435", "accessType": "subscription" },
+    { "providerId": "ivi", "externalId": "9812", "accessType": "free" }
+  ],
+  "2": [
+    { "providerId": "okko", "externalId": "okko-123", "accessType": "purchase" },
+    { "providerId": "kinopoisk", "externalId": "762", "accessType": "subscription" }
+  ],
+  "3": [
+    { "providerId": "ivi", "externalId": "5432", "accessType": "subscription" }
+  ],
+  "4": [
+    { "providerId": "kinopoisk", "externalId": "890", "accessType": "free" }
+  ],
+  "5": [
+    { "providerId": "okko", "externalId": "okko-456", "accessType": "subscription" },
+    { "providerId": "ivi", "externalId": "231", "accessType": "purchase" }
+  ],
+  "6": [
+    { "providerId": "kinopoisk", "externalId": "111", "accessType": "subscription" }
+  ],
+  "7": [
+    { "providerId": "ivi", "externalId": "222", "accessType": "free" }
+  ],
+  "8": [
+    { "providerId": "okko", "externalId": "okko-777", "accessType": "subscription" }
+  ]
+}

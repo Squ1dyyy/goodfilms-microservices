@@ -1,0 +1,32 @@
+# Ignore python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore python cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore local configs
+.env
+.env.local
+.env.production

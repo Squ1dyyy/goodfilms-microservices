@@ -1,0 +1,40 @@
+# IDE & Tooling
+.idea/
+.vscode/
+pyrefly.toml
+*.swp
+*.swo
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Node.js / Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# GeoIP Databases
+*.mmdb
+
+# Logs & Temporary files
+*.log
+*.qea
+*.ldb
+*.tmp
+
+# OS Generated
+.DS_Store
+Thumbs.db
